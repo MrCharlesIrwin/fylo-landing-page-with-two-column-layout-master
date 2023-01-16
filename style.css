@@ -50,3 +50,54 @@ nav a {
   border-radius: 0.3rem;
   width: 16vw;
 }
+.stay {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin: 4vh auto;
+  width: 95%;
+  gap: 5%;
+}
+.stay > div {
+  width: 50%;
+}
+.stay > img {
+  width: 40%;
+}
+#background-gray {
+  background-color: gray;
+}
+.get {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15%;
+  width: 95%;
+  margin: 2vh auto;
+}
+.get div {
+  width: 40%;
+}
+.get input {
+  height: 3vh;
+  width: 90%;
+}
+.get button {
+  background-color: rgb(104, 104, 226);
+  color: white;
+  margin-top: 1vh;
+  border-radius: 0.3rem;
+  height: 4vh;
+  width: 45%;
+}
+footer section {
+  background-color: rgb(74, 74, 204);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8%;
+}
+footer img {
+  height: 4vh;
+}
+footer div {
+  width: 20%;
+}
