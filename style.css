@@ -1,6 +1,16 @@
 * {
   border: 1px solid;
   font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+}
+body {
+  margin: 0%;
+}
+h1 {
+  font-size: 1.8rem;
+}
+h2 {
+  font-size: 1.6rem;
 }
 nav {
   display: flex;
@@ -23,7 +33,7 @@ nav a {
 }
 .all {
   display: flex;
-  gap: 9%;
+  gap: 5%;
   flex-wrap: wrap-reverse;
   margin: 10vh auto;
   width: 95%;
@@ -32,7 +42,7 @@ nav a {
   width: 50%;
 }
 .all img {
-  width: 40%;
+  width: 44%;
 }
 #input {
   height: 2.8vh;
@@ -51,6 +61,8 @@ nav a {
   width: 16vw;
 }
 .stay {
+  background: url(images/bg-curve-desktop.svg) no-repeat;
+  background-size: contain;
   display: flex;
   flex-wrap: wrap-reverse;
   margin: 4vh auto;
@@ -58,9 +70,21 @@ nav a {
   gap: 5%;
 }
 .stay > div {
+  width: 54%;
+}
+.stay p {
+  width: 70%;
+}
+#box {
+  background-color: whitesmoke;
+  margin-top: 5%;
+  padding: 3% 5%;
+  height: 22vh;
   width: 50%;
 }
+
 .stay > img {
+  height: 30%;
   width: 40%;
 }
 #background-gray {
@@ -71,10 +95,14 @@ nav a {
   flex-wrap: wrap;
   gap: 15%;
   width: 95%;
-  margin: 2vh auto;
+  margin: 5vh auto;
+  color: white;
 }
 .get div {
   width: 40%;
+}
+.get h2 {
+  margin-top: 0%;
 }
 .get input {
   height: 3vh;
@@ -90,7 +118,7 @@ nav a {
 }
 footer section {
   background-color: rgb(74, 74, 204);
-  margin: auto;
+  padding: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 8%;
@@ -100,4 +128,7 @@ footer img {
 }
 footer div {
   width: 20%;
+}
+footer ul {
+  list-style: none;
 }
