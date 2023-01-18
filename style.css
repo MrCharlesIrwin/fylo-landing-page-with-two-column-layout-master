@@ -1,7 +1,7 @@
 * {
   border: 1px solid;
   font-family: "Courier New", Courier, monospace;
-  font-size: 12px;
+  font-size: 13px;
 }
 body {
   margin: 0%;
@@ -38,20 +38,22 @@ nav a {
   margin: 10vh auto;
   width: 95%;
 }
-.all div {
-  width: 50%;
+.all h1 {
+  width: 30ch;
 }
+.all p {
+  width: 70ch;
+}
+
 .all img {
-  width: 44%;
+  width: 30%;
 }
 #input {
-  height: 2.8vh;
-  width: fit-content;
   display: flex;
   gap: 5%;
 }
 #input input {
-  height: 2.3vh;
+  height: 2.5vh;
   width: 22vw;
 }
 #input button {
@@ -62,6 +64,7 @@ nav a {
 }
 .stay {
   background: url(images/bg-curve-desktop.svg) no-repeat;
+  background-color: whitesmoke;
   background-size: contain;
   display: flex;
   flex-wrap: wrap-reverse;
@@ -69,23 +72,33 @@ nav a {
   width: 95%;
   gap: 5%;
 }
+
 .stay > div {
-  width: 54%;
+  width: 105ch;
 }
+
 .stay p {
   width: 70%;
 }
+.stay a {
+  color: green;
+  border: none;
+}
+.stay a::after {
+  content: url(images/icon-arrow.svg);
+}
 #box {
-  background-color: whitesmoke;
+  background-color: white;
+  border-radius: 0.5rem;
   margin-top: 5%;
   padding: 3% 5%;
-  height: 22vh;
+  height: 40%;
   width: 50%;
 }
 
 .stay > img {
   height: 30%;
-  width: 40%;
+  width: 30%;
 }
 #background-gray {
   background-color: gray;
@@ -113,7 +126,7 @@ nav a {
   color: white;
   margin-top: 1vh;
   border-radius: 0.3rem;
-  height: 4vh;
+  height: 3.7vh;
   width: 45%;
 }
 footer section {
