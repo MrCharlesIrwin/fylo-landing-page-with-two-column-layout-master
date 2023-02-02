@@ -171,6 +171,10 @@ nav a {
   height: 3.7vh;
   width: 20vw;
 }
+* {
+  border: 1px solid;
+
+}
 footer {
   background-color: hsl(243, 87%, 12%);
   height: 25vh;
@@ -179,10 +183,10 @@ footer {
   justify-content: center;
 }
 footer section {
-  margin: auto;
+align-content: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 10%;
+  gap: 7%;
   width: 96%;
 }
 footer img {
@@ -204,16 +208,18 @@ footer p:last-of-type::before {
 }
 footer div {
   width: 25vw;
+ 
 }
 footer ul {
   width: 100%;
   list-style: none;
-  margin-top: 25%;
+
+column-gap: 20%;
 
   columns: 2;
 }
 footer li {
-  margin-bottom: 7%;
+  
 }
 footer a {
   color: hsl(0, 0%, 75%);
