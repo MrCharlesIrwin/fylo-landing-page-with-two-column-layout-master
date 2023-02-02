@@ -100,14 +100,13 @@ nav a {
 }
 .stay a {
   color: hsl(170, 45%, 43%);
-  border: none;
-}
-.stay a:hover {
-  opacity: 0.6;
+  border-bottom: 1px solid;
+
+  text-decoration: none;
 }
 
-.green a {
-  border: none;
+.stay a:hover {
+  opacity: 0.6;
 }
 
 #box {
