@@ -171,19 +171,16 @@ nav a {
   height: 3.7vh;
   width: 20vw;
 }
-* {
-  border: 1px solid;
 
-}
 footer {
   background-color: hsl(243, 87%, 12%);
-  height: 25vh;
+  height: 30vh;
   color: aliceblue;
   display: flex;
   justify-content: center;
 }
 footer section {
-align-content: center;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   gap: 7%;
@@ -208,18 +205,23 @@ footer p:last-of-type::before {
 }
 footer div {
   width: 25vw;
- 
+}
+footer section div:first-of-type {
+  margin-top: 6vh;
+}
+footer section div:last-of-type {
+  margin-top: 10vh;
 }
 footer ul {
   width: 100%;
   list-style: none;
 
-column-gap: 20%;
+  column-gap: 20%;
 
   columns: 2;
 }
 footer li {
-  
+  margin-bottom: 8%;
 }
 footer a {
   color: hsl(0, 0%, 75%);
@@ -227,4 +229,91 @@ footer a {
 }
 footer a:hover {
   color: rgb(77, 79, 219);
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 9px;
+    margin: auto;
+    text-align: center;
+  }
+  nav {
+    width: 85%;
+  }
+  .all img {
+    width: 65vw;
+  }
+  .all p {
+    width: 95%;
+    margin: 3vh;
+  }
+  #input {
+    flex-direction: column;
+  }
+  #input input {
+    height: 3.3vh;
+    width: 68vw;
+    margin-bottom: 5%;
+  }
+  #input button {
+    width: 70vw;
+    height: 4.5vh;
+  }
+  .stay {
+    padding-bottom: 8vh;
+  }
+  .stay > img {
+    width: 65vw;
+  }
+  .stay h2 {
+    margin: 5vh;
+  }
+  .stay p {
+    text-align: start;
+    margin-bottom: 3vh;
+  }
+  #box {
+    width: 65%;
+    text-align: left;
+  }
+  #box > p {
+    width: 100%;
+  }
+  .small-img {
+    gap: 0;
+    width: 50%;
+    margin-left: 0%;
+  }
+  .small-img img {
+    height: 4vh;
+  }
+  .get div {
+    flex-direction: column;
+    width: 70%;
+  }
+  .get p {
+    margin: 3vh;
+  }
+  .get input {
+    height: 3.4vh;
+    width: 72%;
+  }
+  .get button {
+    height: 4vh;
+    width: 75%;
+  }
+  footer {
+    height: fit-content;
+  }
+  footer img {
+    height: 7vh;
+  }
+  footer section {
+    flex-direction: column;
+    gap: 0%;
+  }
+
+  footer ul {
+    columns: 1;
+  }
 }
